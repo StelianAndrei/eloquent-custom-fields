@@ -1,0 +1,27 @@
+{
+    "name": "stelianandrei/eloquent-custom-fields",
+    "description": "Add any extra fields to your Eloquent models",
+    "require": {
+        "laravel/framework": "^8.0",
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stelian-Andrei Adumitroaei",
+            "email": "stelian.andrei@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StelianAndrei\\EloquentCustomFields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StelianAndrei\\EloquentCustomFields\\ServiceProvider"
+            ]
+        }
+    }
+}
